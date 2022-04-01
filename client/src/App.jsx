@@ -1,5 +1,6 @@
 import React from 'react';
 import Hello from '../src/components/Component/Hello'
+import Interests from '../src/components/Component/Interests'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Hello/>}/>
+        <Route path="/interests" element={<Interests/>}/>
       </Routes>
     </BrowserRouter>
   )

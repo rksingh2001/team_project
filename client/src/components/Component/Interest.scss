@@ -1,0 +1,35 @@
+.interest-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 30vw;
+}
+
+.interest-body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bubbles {
+    box-shadow: rgba(147, 34, 228, 0.24) 0px 3px 8px;
+    background-color: #853bf5;
+    color: white;
+    width: 200px;
+    height: 60px;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 50px;
+    font-size: 18px;
+    display: flex;  
+}
+
+.bubble-text {
+    margin-left: 70px;
+}
+
+.bubbles:hover {
+    background-color: #a46df6;
+}
