@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik&family=Spline+Sans:wght@600&display=swap');
+
+h1, p {
+    font-family: poppins;
+    cursor: pointer;
+}
+
+.category {
+    display:flex;
+    flex-direction: column;
+}
+
 .interest-container{
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    margin: 0 30vw;
+    margin: 0 10vw;
+}
+.carousel {
+    width: 100%;
 }
 
 .interest-body{
@@ -11,23 +26,30 @@
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    background-color: #b990f5;
+    padding: 35px;
+    height: 75vh;
 }
 
 .bubbles {
     box-shadow: rgba(147, 34, 228, 0.24) 0px 3px 8px;
     background-color: #853bf5;
     color: white;
-    width: 200px;
-    height: 60px;
-    padding: 7px;
+    width: 100px;
+    height: 40px;
+    padding: 16px;
     margin: 5px;
     border-radius: 50px;
-    font-size: 18px;
+    font-size: 15px;
     display: flex;  
 }
 
+.bubbles:hover{
+    cursor: pointer;
+}
+
 .bubble-text {
-    margin-left: 70px;
+    margin-top: -4px;
 }
 
 .bubbles:hover {
