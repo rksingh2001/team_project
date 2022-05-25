@@ -1,6 +1,5 @@
 import React from 'react';
-import Hello from '../src/components/Component/Hello'
-import LandingPage from './pages/LandingPage/LandingPage'
+import LandingPage from './pages/LandingPage/LandingPage';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 const App = () => {
