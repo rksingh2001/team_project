@@ -12,11 +12,11 @@ const LoginPage = () => {
         <h4 className="loginPageHeading">App name</h4>
       </div>
 
-      <h5 className="siginText">Sign in</h5>
+      {/* <h5 className="siginText">Sign in</h5> */}
 
       <div className="inputSection">
         <input className="loginPageInput" type="text" placeholder="Username" />
-        <input className="loginPageInput" type="text" placeholder="Password" />
+        <input className="loginPageInput" type="password" placeholder="Password" />
 
         <button className="siginButton">Sign in</button>
 
@@ -25,10 +25,10 @@ const LoginPage = () => {
       </div>
 
       <div className="socialIconsContainer">
-          <img className="socialIcons" src={googleimg} alt="google" />
-          <img className="socialIcons" src={facebookimg} alt="facebook" />
-          <img className="socialIcons" src={twitterimg} alt="twitter" />
-        </div>
+        <img className="socialIcons" src={googleimg} alt="google" />
+        <img className="socialIcons" src={facebookimg} alt="facebook" />
+        <img className="socialIcons" src={twitterimg} alt="twitter" />
+      </div>
     </div>
   )
 }
