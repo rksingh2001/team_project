@@ -1,0 +1,60 @@
+.form-group{
+    position: relative;
+    background-color: #dcdee3;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 350px;
+    height: 60px;
+    margin: 20px 30px;
+
+
+}
+.login-text{
+    font-weight: 700;
+    color: rgba(93, 13, 213, 1);
+    text-align: left;
+    margin: 20px 30px;
+}
+
+.form-control{
+    padding: 1.4rem 1rem 1rem;
+    border: 0;
+    outline: 0;
+    background-color: inherit;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    font-size: 1.2rem;
+    
+}
+
+.label-text{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    height: 100%;
+    width: 100%;
+    padding: 0 1rem;
+    color: rgba(13, 13, 13, 0.5);
+    transition: all 0.25s ease;
+    cursor:text;
+}
+
+
+.form-control:focus ~ .label-text,
+.form-control:invalid ~ .label-text
+{
+    align-items: flex-start;
+    font-size: 0.9rem;
+}
+
+
+.side-link{
+    display: block;
+    margin-bottom: 20px;
+    padding: 0 2rem;
+    text-align: right;
+
+}
